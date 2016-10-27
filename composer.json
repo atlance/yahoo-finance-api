@@ -1,0 +1,22 @@
+{
+  "name": "atlance/yahoo-finance-api",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "description": "Symfony bundle, to work with data Yahoo Finance",
+  "keywords": ["yahoo", "finance", "stock", "api"],
+  "authors": [
+    {
+      "name": "Anton Stepanov",
+      "email": "lanposts@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.9",
+    "symfony/dependency-injection": "^3.1"
+  }
+}

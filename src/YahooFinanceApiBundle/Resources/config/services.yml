@@ -1,0 +1,5 @@
+parameters:
+
+services:
+  yahoo_finance_api:
+    class: YahooFinanceApiBundle\Services\YahooFinanceAPI
